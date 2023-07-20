@@ -1,0 +1,109 @@
+/* media queries  */
+
+@media screen and (max-width: 576px) {
+    /* navigation responsive style  */
+  .nav-container{
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  .nav-list-container{
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  /* hero section responsive style  */
+  .hero-container{
+    flex-direction: column-reverse;
+  }
+  .hero-bg-img{
+    height: 38%;
+    width: 100%;
+  }
+  .hero-img-container{
+    width: 98vw;
+  }
+  .hero-text-container h3{
+    font-size: 38px;
+  }
+
+  /* we are gamer section responsive style  */
+  .we-gamer-container{
+    flex-direction: column;
+  }
+  .we-gamer-container img{
+    width: 98vw;
+  }
+  /* online section style  */
+  .online-container{
+    grid-template-columns: repeat(1,1fr);
+    gap: 23px;
+  }
+  .online-heading{
+    font-size: 30px;
+    margin-top: 29px;
+  }
+  .online-para{
+    margin-top: 10px;
+    line-height: 22px;
+  }
+  /* play section style  */
+  .play-container{
+    flex-direction: column;
+  }
+  .play-img{
+    width: 100%;
+    padding-left: 32px;
+  }
+  .play-img-one{
+    width: 100%;
+    padding-right: 32px;
+  }
+  .subimg{
+    bottom: -39px;
+    left: -14px;
+    width: 147px;
+  }
+  .subimg-one{
+    bottom: -39px;
+    right: -14px;
+    width: 147px;
+  }
+  .play-para{
+    width: 100%;
+  }
+  .desc{
+    margin-left: 0;
+    margin-top: 20px;
+
+  }
+  /* carreers section style  */
+  .careers-container{
+    flex-direction: column;
+  }
+  .careers-container img{
+    width: 90vw;
+  }
+  .careers-desc{
+    padding-top: 50px;
+  }
+  /* category section style  */
+  .category-container{
+    justify-content: flex-start;
+  }
+
+  /* footer section style  */
+  .footer-navbar,.footer-icons, .footer-small-nav{
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  .footer-para{
+    text-align: center;
+  }
+
+  }
+  
+  @media screen and (min-width: 577px) and (max-width: 992px) {
+
+  }
